@@ -8,7 +8,7 @@ const Login = () => {
   const { token, setToken, navigate, backendUrl } = useContext(ShopContext);
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState(''); //
 
   const onSubmitHandler = async (event) => {
     event.preventDefault();
